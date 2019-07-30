@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConversationList renders correctly 1`] = `
+<div
+  className="conversation-list"
+>
+  <div
+    className="conversation-list__content"
+  />
+</div>
+`;

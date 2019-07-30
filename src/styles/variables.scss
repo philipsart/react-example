@@ -1,0 +1,53 @@
+/* colors & gradients */
+$primary: #177EA5;
+$primary-dark: #116686;
+$light: #DADFE8;
+$purple: #BE52F2;
+$purple-light: #DBA5F5;
+$purple-lighter: #EEDFF2;
+$blue: #6979F8;
+$blue-light: #A5AFFB;
+$blue-lighter: #E5E7FA;
+$yellow: #FFCF5C;
+$yellow-light: #FFE29D;
+$yellow-lighter: #FFF8E7;
+$orange: #FFA26B;
+$orange-light: #FFC7A6;
+$orange-lighter: #FFE8DA;
+$azure: #0084F4;
+$azure-light: #66B5F8;
+$azure-lighter: #D5E9FA;
+$green: #00C48C;
+$green-light: #7DDFC3;
+$green-lighter: #D5F2EA;
+$red: #FF647C;
+$red-light: #FDAFBB;
+$red-lighter: #FBE4E8;
+$grey-darker: #1A051D;
+$grey-dark: #3F3356;
+$grey: #C0C0C0;
+$grey-light: #ECE9F1;
+$grey-lighter: #F7F5F9;
+$white: #FFFFFF;
+$gradient-purple: linear-gradient(0.25turn, #8461C9, #BD7AE3);
+$gradient-blue: linear-gradient(0.25turn, #CDBAFA, #CDDDF4);
+
+/* fonts */
+$primary-font: Arial, Helvetica, sans-serif;
+$semibold: 600;
+$light: 300;
+
+/* size constants */
+$app-header-height: 56px;
+$toolbar-height: 48px;
+$sider-width: 240px;
+$icon-size: 24px;
+$corner-radius: 6px;
+$corner-radius-small: 3px;
+$control-height: 32px;
+$control-height-large: 40px;
+$button-height: 37px;
+
+/* other */
+$control-border: 1px solid #DCE1EA;
+$control-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);

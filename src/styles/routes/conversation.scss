@@ -1,0 +1,134 @@
+.route--conversation {
+  @extend .flex;
+  .conversation-sider,
+  .conversation-list {
+    width: 50%;
+    height: 100%;
+  }
+  .conversation-sider {
+    background: $primary;
+    color: $white;
+    padding: 0 5%;
+    .btn--exit {
+      padding: 2rem 0;
+      color: $white;
+    }
+    .tabs {
+      padding: 4rem;
+      p {
+        margin-bottom: 1rem;
+        &.selected:before {
+          content: '';
+          position: absolute;
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          background: $white;
+          transform: translate(-16px, 4px);
+        }
+      }
+    }
+  }
+  .conversation-list {
+    background: $grey-light;
+    @extend .v-flex;
+    &__content {
+      padding: 5%;
+      flex: 1;
+      overflow: auto;
+    }
+  }
+  .conversation-row {
+    margin-top: 32px;
+    margin-top: 3.2rem;
+    &:first-child {
+      margin-top: 0;
+    }
+    .message {
+      @extend .flex;
+      align-items: flex-start;
+      .avatar-wrapper {
+        padding: 8px;
+        padding-right: 16px;
+        margin-right: -16px;
+        background: $white;
+        border-top-left-radius: 16px;
+        border-bottom-left-radius: 16px;
+        .avatar {
+          width: 24px;
+          height: 24px;
+          border-radius: 50%;
+          background: $grey-darker;
+        }
+      }
+      &__content {
+        padding: 8px 12px;
+        background: $white;
+        line-height: 24px;
+        border-radius: 16px;
+        border-top-left-radius: 0;
+        img {
+          width: 20vh;
+        }
+      }
+    }
+    &--secondary {
+      margin-top: 16px;
+      margin-top: 1.6rem;
+      .message {
+        .avatar-wrapper {
+          @extend .invisible;
+        }
+        &__content {
+          border-top-left-radius: 16px;
+        }
+      }
+    }
+    .content {
+      margin-top: 16px;
+      &--text {
+        @extend .flex;
+        justify-content: flex-end;
+      }
+      &--select {
+        .custom-select {
+          margin: auto;
+          max-width: 400px;
+        }
+      }
+      &__value {
+        line-height: 24px;
+        padding: 8px 16px;
+        border-radius: 20px;
+        background-color: $grey;
+      }
+    }
+  }
+  .allergies {
+    @extend .flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .cell {
+      padding: 8px;
+      cursor: pointer;
+      &__icon {
+        width: 80px;
+        width: 8rem;
+        height: 80px;
+        height: 8rem;
+        border-radius: 40px;
+        border-radius: 4rem;
+        border: $control-border;
+        background: $white;
+        @extend .center;
+        font-weight: $semibold;
+      }
+      &__label {
+        font-size: 12px;
+        font-size: 1.2rem;
+        margin-top: 8px;
+        @extend .t-center;
+      }
+    }
+  }
+}

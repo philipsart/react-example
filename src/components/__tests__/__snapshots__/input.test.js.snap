@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomInput renders correctly 1`] = `
+<div
+  className="custom-input"
+>
+  <input
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    value=""
+  />
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    <img
+      alt="submit"
+      src="/images/submit.jpg"
+    />
+  </button>
+</div>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConversationActiveSelect renders correctly 1`] = `
+<CustomSelect
+  onSelect={[Function]}
+  options={
+    Array [
+      Object {
+        "value": "low",
+      },
+      Object {
+        "value": "medium",
+      },
+      Object {
+        "value": "high",
+      },
+    ]
+  }
+  renderOption={[Function]}
+/>
+`;

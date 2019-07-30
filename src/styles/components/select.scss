@@ -1,0 +1,28 @@
+.custom-select {
+  @extend .flex;
+  cursor: pointer;
+  .option {
+    @extend .t-center;
+    flex: 1;
+    margin: 0 0.8rem;
+    padding: 2.4rem;
+    background: $white;
+    border: $control-border;
+    border-radius: 0.8rem;
+    &.selected {
+      background: $primary;
+      color: $white;
+    }
+    &__label {
+      font-size: 20px;
+      font-size: 2rem;
+      font-weight: $semibold;
+      &--secondary {
+        font-size: 14px;
+        font-size: 1.4rem;
+        margin-top: 16px;
+        margin-top: 1.6rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConversationRow renders correctly 1`] = `
+<div
+  className="conversation-row"
+>
+  <div
+    className="message"
+  >
+    <div
+      className="avatar-wrapper"
+    >
+      <div
+        className="avatar"
+      />
+    </div>
+    <div
+      className="message__content"
+    />
+  </div>
+</div>
+`;

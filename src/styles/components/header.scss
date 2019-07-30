@@ -1,0 +1,10 @@
+.header--app {
+  @extend .center;
+  background: $primary-dark;
+  height: $app-header-height;
+  min-height: $app-header-height;
+  &__logo {
+    height: 40px;
+    height: 4rem;
+  }
+}

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConversationSider renders correctly 1`] = `
+<div
+  className="conversation-sider"
+>
+  <button
+    className="btn btn--exit"
+    type="button"
+  >
+    EXIT
+  </button>
+  <h1>
+    This is a fun headline.
+  </h1>
+  <p>
+    Intro copy that will help users navigate this experience.
+  </p>
+  <div
+    className="tabs"
+  >
+    <p
+      className="selected"
+    >
+      Human Profile
+    </p>
+    <p
+      className=""
+    >
+      Pet Profile
+    </p>
+    <p
+      className=""
+    >
+      Details
+    </p>
+  </div>
+</div>
+`;

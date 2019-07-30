@@ -1,0 +1,28 @@
+.custom-input {
+  @extend .v-center;
+  height: $toolbar-height;
+  border: $control-border;
+  background: $white;
+  padding: 0 12px;
+  padding: 0 1.2rem;
+  input {
+    flex: 1;
+    height: 100%;
+    font-size: 16px;
+    font-size: 1.6rem;
+    margin-right: 12px;
+    margin-right: 1.2rem;
+  }
+  button {
+    opacity: 0.5;
+    pointer-events: none;
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+  &.submittable button {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
